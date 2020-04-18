@@ -22,8 +22,3 @@ Ejemplo:
 <script>
     ca_showadvice();
 </script>
-También puedes implementarlo desde github así:
-<script src="https://github.com/crsdg/Cookie-Advice-JS-Pure/blob/master/engine.js" crossorigin='anonymous'></script>
-<script>
-    ca_showadvice();
-</script>
