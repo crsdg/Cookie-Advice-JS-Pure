@@ -9,16 +9,21 @@ Se pueden modificar el texto y la url de la política en este script. Si dejas l
 Ejemplo:
 
 <script src="engine.js"></script>
-    <script>
-        texto = "Cambiando el texto";
-        urlpolitica="/politicacookies.pdf";
-        ca_cambiardatos(texto,urlpolitica);
-        ca_showadvice();
-    </script>
+<script>
+    texto = "Cambiando el texto";
+    urlpolitica="/politicacookies.pdf";
+    ca_cambiardatos(texto,urlpolitica);
+    ca_showadvice();
+</script>
 Si prefieres utilizar el texto que viene por defecto, comenta o borra las lineas texto...   urlpolitica... y ca_cambiardatos...
 Ejemplo: 
 
 <script src="engine.js"></script>
-    <script>
-        ca_showadvice();
-    </script>
+<script>
+    ca_showadvice();
+</script>
+También puedes implementarlo desde github así:
+<script src="https://github.com/crsdg/Cookie-Advice-JS-Pure/blob/master/engine.js" crossorigin='anonymous'></script>
+<script>
+    ca_showadvice();
+</script>
