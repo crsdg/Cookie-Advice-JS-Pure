@@ -16,6 +16,8 @@ function ca_hideadvice(){
 }
 function ca_cambiardatos(tex,urlpol){
     ca_hideadvice();
-    ca_texto = tex;
+    if (tex!=""){
+        ca_texto = tex;
+    }
     ca_urlpolitica=urlpol;
 }
